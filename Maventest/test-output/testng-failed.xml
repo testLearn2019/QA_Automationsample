@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterization sample Test Suite]">
+  <test thread-count="5" name="parameterDemo Testing(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testNgdemo.Sample3">
+        <methods>
+          <include name="testCaseOne" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNgdemo.Sample3 -->
+    </classes>
+  </test> <!-- parameterDemo Testing(failed) -->
+</suite> <!-- Failed suite [Parameterization sample Test Suite] -->
