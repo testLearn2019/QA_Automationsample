@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Parameterization_sample_Test_Suite">
-              <span class="suite-name border-failed">Parameterization sample Test Suite</span>
+              <span class="suite-name border-passed">Parameterization sample Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Parameterization_sample_Test_Suite">
-                    <span>C:\Users\user\OneDrive\Documents\Harika\Maventest\target\TestNG1.xml</span>
+                    <span>C:\Users\user\git\QA_Automationsample\Maventest\target\TestNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Parameterization_sample_Test_Suite" class="hide-methods failed suite-Parameterization_sample_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Parameterization_sample_Test_Suite -->
-                      <a href="#" panel-name="suite-Parameterization_sample_Test_Suite" class="show-methods failed suite-Parameterization_sample_Test_Suite"> (show)</a> <!-- show-methods failed suite-Parameterization_sample_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Parameterization_sample_Test_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Parameterization_sample_Test_Suite" title="testNgdemo.Sample3" hash-for-method="testCaseOne(Firefox)">testCaseOne(Firefox)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Parameterization_sample_Test_Suite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,7 +102,12 @@
                     <div class="method-list-content passed suite-Parameterization_sample_Test_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Parameterization_sample_Test_Suite" title="testNgdemo.Sample3" hash-for-method="testCaseTwo(Firefox)">testCaseTwo(Firefox)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Parameterization_sample_Test_Suite" title="testNgdemo.Sample2" hash-for-method="testCaseOne(Firefox)">testCaseOne(Firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parameterization_sample_Test_Suite" title="testNgdemo.Sample2" hash-for-method="testCaseTwo(testuser, testpassword)">testCaseTwo(testuser, testpassword)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Parameterization_sample_Test_Suite -->
@@ -131,10 +122,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Parameterization_sample_Test_Suite" class="panel Parameterization_sample_Test_Suite">
-          <div class="suite-Parameterization_sample_Test_Suite-class-failed">
+          <div class="suite-Parameterization_sample_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testNgdemo.Sample3</span>
+              <img src="passed.png"/>
+              <span class="class-name">testNgdemo.Sample2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -143,42 +134,14 @@
                   </a> <!-- testCaseOne(Firefox) -->
                   <span class="method-name">testCaseOne</span>
                   <span class="parameters">(Firefox)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=79.0.3945.88)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-HFVGVI8&apos;, ip: &apos;192.168.0.113&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb6f29256135bfde13d454a736787521
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at testNgdemo.Sample3.testCaseOne(Sample3.java:20)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Parameterization_sample_Test_Suite-class-failed -->
-          <div class="suite-Parameterization_sample_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testNgdemo.Sample3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testCaseTwo(Firefox)">
-                  </a> <!-- testCaseTwo(Firefox) -->
+                  <a name="testCaseTwo(testuser, testpassword)">
+                  </a> <!-- testCaseTwo(testuser, testpassword) -->
                   <span class="method-name">testCaseTwo</span>
-                  <span class="parameters">(Firefox)</span>
+                  <span class="parameters">(testuser, testpassword)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,7 +149,7 @@ Session ID: fb6f29256135bfde13d454a736787521
         </div> <!-- panel Parameterization_sample_Test_Suite -->
         <div panel-name="test-xml-Parameterization_sample_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\user\OneDrive\Documents\Harika\Maventest\target\TestNG1.xml</span>
+            <span class="header-content">C:\Users\user\git\QA_Automationsample\Maventest\target\TestNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -194,9 +157,11 @@ Session ID: fb6f29256135bfde13d454a736787521
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Parameterization sample Test Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;parameterDemo Testing&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;testpassword&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;testuser&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testNgdemo.Sample3&quot;/&gt;
+      &lt;class name=&quot;testNgdemo.Sample2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- parameterDemo Testing --&gt;
 &lt;/suite&gt; &lt;!-- Parameterization sample Test Suite --&gt;
@@ -238,18 +203,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCaseTwo')
-data.setCell(0, 2, 'testNgdemo.Sample3')
-data.setCell(0, 3, 11017);
+data.setCell(0, 1, 'testCaseOne')
+data.setCell(0, 2, 'testNgdemo.Sample2')
+data.setCell(0, 3, 19);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testCaseOne')
-data.setCell(1, 2, 'testNgdemo.Sample3')
-data.setCell(1, 3, 10663);
+data.setCell(1, 1, 'testCaseTwo')
+data.setCell(1, 2, 'testNgdemo.Sample2')
+data.setCell(1, 3, 2);
 window.suiteTableData['Parameterization_sample_Test_Suite']= { tableData: data, tableDiv: 'times-div-Parameterization_sample_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 21 ms</span>
               <div id="times-div-Parameterization_sample_Test_Suite">
               </div> <!-- times-div-Parameterization_sample_Test_Suite -->
             </div> <!-- times-div -->
@@ -275,16 +240,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testNgdemo.Sample3</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testNgdemo.Sample2</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testCaseOne(Firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testCaseTwo(Firefox)</span>
-                <span class="method-start">10684 ms</span>
+                <span class="method-name">testCaseTwo(testuser, testpassword)</span>
+                <span class="method-start">25 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

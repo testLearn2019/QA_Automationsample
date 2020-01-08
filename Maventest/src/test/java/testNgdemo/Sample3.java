@@ -1,4 +1,4 @@
-/*package testNgdemo;
+package testNgdemo;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +14,7 @@ public class Sample3 {
 	@Test(priority=1)
 	public void testCaseOne(String brow) {
 		System.out.println("browser passed as :- " + brow);
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\OneDrive\\Documents\\Harika\\Maventest\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\git\\QA_Automationsample\\Maventest\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().window().maximize();
@@ -24,10 +24,10 @@ public class Sample3 {
 	@Test(priority=2)
 	public void testCaseTwo(String brow) {
 		System.out.println("browser passed as :- " + brow);
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\user\\OneDrive\\Documents\\Harika\\Maventest\\drivers\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\user\\git\\QA_Automationsample\\Maventest\\drivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().window().maximize();
 	}
 	
-}*/
+}

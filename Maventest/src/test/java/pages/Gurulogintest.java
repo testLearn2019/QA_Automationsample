@@ -10,7 +10,7 @@ public class Gurulogintest {
 	WebDriver driver;
 	@BeforeClass
 	public void browserLaunch() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\OneDrive\\Documents\\Harika\\Maventest\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\git\\QA_Automationsample\\Maventest\\drivers\\chromedriver.exe");
 	    driver = new ChromeDriver();
         driver.get("http://demo.guru99.com/V4/");
 	}
